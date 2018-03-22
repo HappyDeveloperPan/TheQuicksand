@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/homePage/homePage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "流沙",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#F2383D",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pages/image/ICON-homepage@2x.png",
+      "selectedIconPath": "/pages/image/ICON-homepage-select@2x.png"
+    },{
+      "pagePath": "pages/homePage/homePage",
+      "text": "我",
+      "iconPath": "/pages/image/ICON-mine@2x.png",
+      "selectedIconPath": "/pages/image/ICON-mine-select@2x.png"
+    }]
+  }
+}
