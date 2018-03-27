@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/homePage/homePage"
+    "pages/homePage/homePage",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,7 +22,7 @@
       "iconPath": "/pages/image/ICON-homepage@2x.png",
       "selectedIconPath": "/pages/image/ICON-homepage-select@2x.png"
     },{
-      "pagePath": "pages/homePage/homePage",
+      "pagePath": "pages/my/my",
       "text": "我",
       "iconPath": "/pages/image/ICON-mine@2x.png",
       "selectedIconPath": "/pages/image/ICON-mine-select@2x.png"
